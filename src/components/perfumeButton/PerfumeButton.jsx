@@ -7,7 +7,7 @@ export const PerfumeButton = () => {
       <button className="btn_cart">
         {/* //?: svgen er hvit, derfor er den ikke synlig med hvit bakgrunn */}
         <img src="/icon-cart.svg" alt="cart icon" className="cart_icon" />
-        Add to Cart
+        Add to Cart lol
       </button>
     </div>
   );
