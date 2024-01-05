@@ -13,11 +13,11 @@
 }
 
 .desktop_image {
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .mobile_image {
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .img_wrapper {
