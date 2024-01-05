@@ -1,0 +1,31 @@
+/* Hide element 1 on phones */
+@media (max-width: 767px) {
+    .desktop_image {
+        display: none;
+    }
+}
+
+/* Hide element 2 on desktops */
+@media (min-width: 768px) {
+    .mobile_image {
+        display: none;
+    }
+}
+
+.desktop_image {
+    object-fit: contain;
+}
+
+.mobile_image {
+    object-fit: contain;
+}
+
+.img_wrapper {
+    display: flex;
+    width: 50%;
+}
+
+.img_wrapper > * {
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
