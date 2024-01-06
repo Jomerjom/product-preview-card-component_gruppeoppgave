@@ -31,6 +31,11 @@ p {
 .text_wrapper {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
+@media (min-width: 376px) {
+    .text_wrapper {
+      gap: 2rem;
+    }
+  }
