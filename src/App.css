@@ -8,7 +8,7 @@
 
 section {
   display: flex;
-  flex-direction: column; /* default: column */
+  flex-direction: column;
   border-radius: 2%;
   width: fit-content;
   height: fit-content;
